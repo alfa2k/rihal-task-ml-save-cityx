@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+folium
+streamlit-folium
+PyPDF2
+scikit-learn
+plotly
+streamlit-toggle
+Pillow
