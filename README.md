@@ -1,4 +1,4 @@
-# 2025 ML Rihal Codestacker Challenge: CityX Crime Watch
+# 2025 ML Rihal Codestacker Challenge
 
 ## Project Components
 
