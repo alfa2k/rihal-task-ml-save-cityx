@@ -66,6 +66,8 @@
 The app is deployed publicly at:  
 [CityX Crime Analysis Dashboard](https://rihal-task-ml-save-cityx-mnyynnfsfsrbw8dtdyip8n.streamlit.app/)
 
+[Wake the streamlit app in case it's gone to sleep 😅]
+
 ## Contact
 
 Developed by **fateen ahmed**  
