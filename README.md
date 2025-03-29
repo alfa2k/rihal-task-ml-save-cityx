@@ -68,6 +68,11 @@ The app is deployed publicly at:
 
 [Wake the streamlit app in case it's gone to sleep 😅]
 
+<img width="700" alt="cityx-ml-2" src="https://github.com/user-attachments/assets/c08645cc-37f6-415c-a92f-0007fe36a444" />
+<img width="700" alt="cityx-ml-1" src="https://github.com/user-attachments/assets/57395fd7-4d7d-4ffb-97d2-78a8b2829d92" />
+<img width="700" alt="cityx-ml-3" src="https://github.com/user-attachments/assets/327cbdec-30bd-46a9-8008-acea61a54468" />
+
+
 ## Contact
 
 Developed by **fateen ahmed**  
