@@ -802,12 +802,14 @@ elif page == "Police Report Analysis":
 # -----------------------------------------------
 elif page == "Crime Classification":
     st.markdown('<h1 class="main-header">Crime Classification</h1>', unsafe_allow_html=True)
-    
+    if "example_description" not in st.session_state:
+        st.session_state.example_description = "e.g., suspicious person loitering near parked cars, attempting to open car doors at night"
+
     # Description input
     st.markdown('<div class="card">', unsafe_allow_html=True)
     description_input = st.text_area(
         "Enter a Crime Description:",
-        "e.g., suspicious person loitering near parked cars, attempting to open car doors at night",
+        value=st.session_state.example_description,
         height=150
     )
     classify_button = st.button("Analyze Crime", type="primary")
