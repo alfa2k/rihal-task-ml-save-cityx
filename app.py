@@ -951,7 +951,10 @@ elif page == "Crime Classification":
                 st.markdown(f"**Severity:** {get_severity_class(example['severity'])}", unsafe_allow_html=True)
                 if st.button(f"Use Example {i+1}"):
                     st.session_state.example_description = example['description']
-                    st.experimental_rerun()
+                    try:
+                        st.rerun()
+                    except AttributeError as e:
+                        st.error(f"Rerun failed: {e}")
                 st.markdown('</div>', unsafe_allow_html=True)
 
     # Classification explanation
